@@ -38,15 +38,9 @@ wss.on('connection', function(socket) {
 
 
 const { ShardingManager } = require('discord.js');
-<<<<<<< HEAD
 const manager = new ShardingManager(__dirname + '/bot.js', {
   token: process.env.TOKEN,
   totalShards: 'auto'
-=======
-const manager = new ShardingManager(__dirname + '/bot.js', { 
-	token: process.env.TOKEN,
-	totalShards: 'auto'
->>>>>>> origin/master
 });
 
 console.log("\nlaunching cluster...\n")

@@ -1,6 +1,5 @@
 const backup = require("discord-backup");
 const Discord = require('discord.js');
-backup.setStorageFolder(__dirname+"/backups/");
 
 async function execute(message, data, client) {
 	if(!message.member.hasPermission("ADMINISTRATOR")){
