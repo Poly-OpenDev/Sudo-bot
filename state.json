@@ -1,0 +1,27 @@
+{
+    "state": "Fatal Err",
+    "channelid": 801870584036065300,
+    "message": {
+        "channelID": "801870584036065290",
+        "deleted": false,
+        "id": "802162594931671081",
+        "type": "DEFAULT",
+        "system": false,
+        "content": "sudo stats",
+        "authorID": "800433301668102144",
+        "pinned": false,
+        "tts": false,
+        "nonce": "802162607279570944",
+        "embeds": [],
+        "attachments": [],
+        "createdTimestamp": 1611320866092,
+        "editedTimestamp": 0,
+        "webhookID": null,
+        "applicationID": null,
+        "activity": null,
+        "flags": 0,
+        "reference": null,
+        "guildID": "798653880241881098",
+        "cleanContent": "sudo stats"
+    }
+}

@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+
+:root{
+  --primary: #6121ff ;
+  --secondary: #eee;
+  --font: 'Roboto', sans-serif;
+  --primary-text-color: #eee;
+	--page-color: #fff;
+	--main-text-color: #222;
+}
+#tply-source{
+	display: none;
+}
+@keyframes sizein {
+  0% {transform: scale(0)}
+  100% {transform: scale(100%)}
+}
+
+@supports (backdrop-filter:blur()) {
+	.fog{
+		background-color: rgba(255,255,255,0.4) !important;
+		backdrop-filter: blur(10px);
+	}
+}
+
+@keyframes sizeout {
+  from {transform: scale(100%);}
+  to {transform: scale(0);}
+}
+
+.glow{
+  text-shadow: 0px 0px 7px #ddd;
+}
+
+
+body{
+	overflow: auto;
+}
+nav{
+	position: fixed;
+	top:0;
+	z-index: 100000;
+  transition: box-shadow .3s;
+}
+
+.progress{
+	position: fixed;
+	z-index: 1000000 !important;
+}
+
+#content{
+	margin-top: 50px;
+}
+
+#load{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.animateout {
+  display: block;
+	right: 0%;
+  position: absolute;
+  background-color: var(--page-color) ;
+  border-radius: 4px; 
+	padding-right: 10px;
+  color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+  z-index: 100000000000;
+	backdrop-filter: blur(8px);
+	overflow: hidden;
+  animation-name: sizeout;
+  animation-duration: .4s;
+}
+
+.dropdown-content {
+  display: none;
+	right: 0%;
+  position: absolute;
+  background-color: var(--page-color) ;
+  border-radius: 4px; 
+	padding-right: 10px;
+  color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+  z-index: 100000000000;
+	backdrop-filter: blur(8px);
+	overflow: hidden;
+}
+.show{
+  display: block;
+  animation-name: sizein;
+  animation-duration: .4s;
+}
+
+.file-card{
+  background: var(--primary);
+  color: white;
+}
+.file-name{
+  font-size: 25px;
+}
+.file-value{
+  word-wrap: none;
+}
+
+.delete{
+  background: rgb(red, white, var(--primary));
+  color: white;
+}
+.edit{
+  background: rgb(grey, skyblue, var(--primary));
+}
+
+@media screen and (max-width: 600px) {
+  .item {
+		position: relative;
+    width: 100%;
+		min-height: 250px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .item {
+		position: relative;
+    width: calc(50% - 10px);
+		max-width: 300px;
+		float: left;
+		min-height: 300px;
+		margin-left: 5px;
+		margin-right: 5px;
+		padding-bottom: 4em;
+  }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+	border-radius: 4px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(175,175,175, 0.9);
+	backdrop-filter: blur(8px);
+	border-radius: 4px;
+}
+
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(100,100,100, 0.9);
+}
+
+/* @keyframes card-grow {
+  from {height: calc(50% - 10px);} // Not done yet, don't add anything. I'm just adding a hover effect -@Whacko
+  to {height: calc(50% - 5px); }
+}
+*/
+
+#card {
+  transition: transform 0.2s, border 0.2s, box-shadow 0.2s;
+	background-color: var(--page-color)
+}
+
+#card:hover {
+  transform: scale(1.05);
+  border: #73c4fa 2px solid;
+  box-shadow: 0px 4px 20px rgb(0 151 251 / 25%);
+	z-index: 1000;
+}
+
+button {
+  cursor: pointer;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.hover{
+  transition: transform .4s;
+}
+
+.hover:hover {
+  transform: scale(1.1)
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+
+.padding{
+	margin-top: 5em;
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+.icon{
+	margin-right: 7px;
+	font-size: 1.5em;
+}
