@@ -1,4 +1,4 @@
-![buy us a coffee](https://img.buymeacoffee.com/button-api/?text=Buy%20us%20a%20coffee&emoji=&slug=Oxygen2Team&button_colour=BD5FFF&font_colour=ffffff&font_family=Lato&outline_colour=000000&coffee_colour=FFDD00)
+[![buy us a coffee](https://img.buymeacoffee.com/button-api/?text=Buy%20us%20a%20coffee&emoji=&slug=Oxygen2Team&button_colour=BD5FFF&font_colour=ffffff&font_family=Lato&outline_colour=000000&coffee_colour=FFDD00)](https://www.buymeacoffee.com/oxygen2team)
 
 # Sudo
 The programmers bot in short, 
