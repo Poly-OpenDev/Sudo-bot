@@ -6,6 +6,8 @@ but it has MOST things you could want,
 We really love help with our code so we can build what is
 right, for all of us.
 
+**if you fork this bot, you will need to create your own server emojies, invite the bot, type `\:emoji_name:` to get the emoji id then replace the emojis in the bot, If you like what we do (pls dont count the previous bit) then pls donate to pay the devs and staff who put effort into Oxygen.**
+
 ## Features
  - Server Backup (will double channels it cant delete, like a community channel)
  - Programmatically generated help

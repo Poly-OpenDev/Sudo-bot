@@ -10,31 +10,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@replit/database": "^2.0.0",
     "chalk": "^4.1.0",
     "cli-progress": "^3.8.2",
     "discord-backup": "^2.4.1",
     "discord.js": "^12.5.1",
-    "discordjs-logger": "^2.0.0",
     "express": "^4.17.1",
     "got": "^11.8.1",
-    "html-to-text": "^6.0.0",
-    "html2markdown": "^1.1.0",
-    "malwareworld": "^1.3.5",
-    "moment": "^2.29.1",
-    "mongoose": "^5.11.7",
-    "node-virustotal": "^3.32.0",
-    "nodemailer": "^6.4.17",
-    "safe-browse": "^1.0.1",
     "safe-browse-url-lookup": "^0.1.1",
     "safe-eval": "^0.4.1",
-    "shift-db": "^1.5.6",
-    "spoopylink": "^1.0.4",
     "textversionjs": "^1.1.3",
     "upndown": "^2.1.0",
     "usage": "^0.7.1",
-    "uuid": "^8.3.2",
     "winston": "^3.3.3",
-    "ws": "^7.4.1"
+    "ws": "^7.4.2"
   }
 }

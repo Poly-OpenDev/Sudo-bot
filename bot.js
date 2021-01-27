@@ -146,7 +146,7 @@ async function err(message, e) {
 	toSend = new Discord.MessageEmbed()
 		.setTitle(`Reported error...`)
 		.setColor("#6121ff")
-		.setDescription(`<:checkmarkflat:802178522575273994> The bug was reported, [learn more](https://sites.google.com/view/oxygen-docs/Docs?authuser=0#h.i7up4qglyf64).`)
+		.setDescription(`<:checkmarkflat:803664970536452116> The bug was reported, [learn more](https://sites.google.com/view/oxygen-docs/Docs?authuser=0#h.i7up4qglyf64).`)
 		.setFooter(`This is an automated response`)
 	await sent.edit(toSend)
 	process.exit(1)
